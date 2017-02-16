@@ -9,7 +9,7 @@ page('/', function() {
         {
             user: {
                 username: 'Hans Smuller Rasch Diaz',
-                avatar: 'http://materializecss.com/images/sample-1.jpg'
+                avatar: 'materialize.png'
             },
             url: 'http://materializecss.com/images/sample-1.jpg',
             likes: 1024,
@@ -18,7 +18,7 @@ page('/', function() {
         {
             user: {
                 username: 'Hans Malcolm Rasch Diaz',
-                avatar: 'http://materializecss.com/images/office.jpg'
+                avatar: 'materialize.png'
             },
             url: 'http://materializecss.com/images/office.jpg',
             likes: 512,
