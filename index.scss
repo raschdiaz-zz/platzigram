@@ -1,0 +1,78 @@
+$secondary-color: #125688;
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+body {
+	background: #fafafa;
+	color: $secondary-color;
+	font-family: 'Montserrat';
+}
+
+.iphone {
+	max-width: 100%;
+}
+
+.site-footer {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.login-box, .signup-box {
+	background-color: white;
+	border: 1px solid #edeeee;
+	border-radius: 3px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.platzigram {
+  font-family: 'Oleo Script' !important;
+  font-size: 42px;
+  color: $secondary-color !important;
+}
+
+.signup-form {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.signup-form h2 {
+	color: #a5a7aa;
+	font-size: 1.2em;
+}
+
+.signup-form .btn-fb {
+	background-color: #4090db;
+	font-size: .8em;
+}
+
+.signup-form .btn-fb:hover {
+	background-color: #2d6599;
+}
+
+.signup-form .btn-signup {
+	background-color: $secondary-color;
+}
+
+.header {
+  background-color: white;
+  color: $secondary-color;
+  box-shadow: none;
+  border-bottom: 1px solid #edeeee;
+}
+
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.color-black {
+  color: #000000;
+}
+
+.timeline {
+  padding: 30px 0;
+}
+
+.landing {
+	margin: 30px auto;
+}

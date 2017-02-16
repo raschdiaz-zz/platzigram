@@ -1,0 +1,36 @@
+{
+  "name": "Platzigram",
+  "version": "0.1.0",
+  "description": "Share your photos learning in Platzi with the community",
+  "main": "server.js",
+  "scripts": {
+    "build": "concurrently \"gulp\" \"node server.js\""
+  },
+  "keywords": [
+    "platzi",
+    "javascript",
+    "definitive",
+    "course",
+    "platzigram"
+  ],
+  "author": "Hans",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.1.0",
+    "consolidate": "^0.14.5",
+    "express": "^4.14.0",
+    "material-design-icons": "^3.0.1",
+    "materialize-css": "^0.97.8",
+    "mustache": "^2.3.0",
+    "page": "^1.7.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.11",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
