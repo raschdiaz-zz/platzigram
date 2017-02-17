@@ -6,9 +6,8 @@ module.exports = function (pictures) {
         '<div class="row">' +
             '<div class="col s12 m10 offset-m1 l6 offset-l3">' +
                 pictures.map(function(pic) {
-                    console.log(picture(pic));
                     return picture(pic);
-                }) +
+                }).join("") +
             '</div>' +
         '</div>' +
     '</div>';
