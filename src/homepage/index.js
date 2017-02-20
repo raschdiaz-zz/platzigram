@@ -8,8 +8,8 @@ page('/', function() {
     var pictures = [
         {
             user: {
-                username: 'Hans Smuller Rasch Diaz',
-                avatar: 'materialize.png'
+                username: 'raschdiaz',
+                avatar: 'materialize-icon.png'
             },
             url: 'http://materializecss.com/images/sample-1.jpg',
             likes: 1024,
@@ -17,8 +17,8 @@ page('/', function() {
         },
         {
             user: {
-                username: 'Hans Malcolm Rasch Diaz',
-                avatar: 'materialize.png'
+                username: 'hansmalcolm',
+                avatar: 'materialize-icon.png'
             },
             url: 'http://materializecss.com/images/office.jpg',
             likes: 512,
